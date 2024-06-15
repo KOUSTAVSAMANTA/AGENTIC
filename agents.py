@@ -7,9 +7,9 @@ def _set_env(var: str):
         os.environ[var] = getpass.getpass(f"{var}: ")
 
 
-os.environ["ANTHROPIC_API_KEY"] = "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"
-os.environ['OPENAI_API_KEY'] = " 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"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["ANTHROPIC_API_KEY"] = ""
+os.environ['OPENAI_API_KEY'] = ""
+os.environ["TAVILY_API_KEY"] = ""
 
 import os
 import shutil
